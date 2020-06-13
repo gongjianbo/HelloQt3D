@@ -77,14 +77,19 @@ Rectangle {
         model: ListModel{
             id: listmodel
             ListElement{
-                group: "GroupA"
+                group: "Hellow Qt3D"
                 demo: "First Window：一个简单的窗口"
                 url: "qrc:/src/helloqt3d/FirstWindow.qml"
             }
             ListElement{
-                group: "GroupA"
+                group: "Hellow Qt3D"
                 demo: "First Entity：使用已有的Mesh"
                 url: "qrc:/src/helloqt3d/FirstEntity.qml"
+            }
+            ListElement{
+                group: "Hellow Qt3D"
+                demo: "First Triangle：画一个三角"
+                url: "qrc:/src/helloqt3d/FirstTriangle.qml"
             }
         }
     }

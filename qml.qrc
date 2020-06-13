@@ -5,5 +5,6 @@
         <file>src/HomePage.qml</file>
         <file>src/LoaderPage.qml</file>
         <file>src/helloqt3d/FirstEntity.qml</file>
+        <file>src/helloqt3d/FirstTriangle.qml</file>
     </qresource>
 </RCC>
