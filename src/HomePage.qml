@@ -81,6 +81,11 @@ Rectangle {
                 demo: "First Window：一个简单的窗口"
                 url: "qrc:/src/helloqt3d/FirstWindow.qml"
             }
+            ListElement{
+                group: "GroupA"
+                demo: "First Entity：使用已有的Mesh"
+                url: "qrc:/src/helloqt3d/FirstEntity.qml"
+            }
         }
     }
 }

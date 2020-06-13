@@ -4,5 +4,6 @@
         <file>src/helloqt3d/FirstWindow.qml</file>
         <file>src/HomePage.qml</file>
         <file>src/LoaderPage.qml</file>
+        <file>src/helloqt3d/FirstEntity.qml</file>
     </qresource>
 </RCC>
