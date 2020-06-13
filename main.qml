@@ -22,6 +22,8 @@ Window {
         visible: true
         anchors.fill: parent
     }
+    //目前动态释放scene3d会异常：
+    //Failed to make context current: OpenGL resources will not be destroyed
     LoaderPage{
         id:loaderPage
         visible:!homePage.visible

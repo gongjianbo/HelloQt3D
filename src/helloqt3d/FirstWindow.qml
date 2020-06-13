@@ -3,9 +3,10 @@ import QtQuick.Scene3D 2.15
 import Qt3D.Core 2.15
 import Qt3D.Render 2.15
 
-Rectangle{
+Item{
     //创建3d场景嵌入到QtQuick
     Scene3D {
+        id: scene3d
         anchors.fill: parent
         anchors.margins: 20
         //实体Entity是一个Node子类，可以聚合几个Component3D实例来指定其行为
